@@ -1,0 +1,17 @@
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\bin\Debug\net7.0\TextRPG.exe
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\bin\Debug\net7.0\TextRPG.deps.json
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\bin\Debug\net7.0\TextRPG.runtimeconfig.json
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\bin\Debug\net7.0\TextRPG.dll
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\bin\Debug\net7.0\TextRPG.pdb
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\obj\Debug\net7.0\TextRPG.csproj.AssemblyReference.cache
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\obj\Debug\net7.0\TextRPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\obj\Debug\net7.0\TextRPG.AssemblyInfoInputs.cache
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\obj\Debug\net7.0\TextRPG.AssemblyInfo.cs
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\obj\Debug\net7.0\TextRPG.csproj.CoreCompileInputs.cache
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\obj\Debug\net7.0\TextRPG.dll
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\obj\Debug\net7.0\refint\TextRPG.dll
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\obj\Debug\net7.0\TextRPG.pdb
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\obj\Debug\net7.0\TextRPG.genruntimeconfig.cache
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\obj\Debug\net7.0\ref\TextRPG.dll
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\bin\Debug\net7.0\Pastel.dll
+C:\Users\aerom\RiderProjects\TextRPG\TextRPG\obj\Debug\net7.0\TextRPG.csproj.CopyComplete
