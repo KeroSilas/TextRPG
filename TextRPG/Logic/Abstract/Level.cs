@@ -5,7 +5,7 @@ using TextRPG.Model.Abstract;
 
 namespace TextRPG.Logic.Abstract;
 
-public abstract class Level
+public abstract class Level : InputHandler
 {
     private BattleMenu bm;
     public abstract void Start(ref PlayableCharacter player);

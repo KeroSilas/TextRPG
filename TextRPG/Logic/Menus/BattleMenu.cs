@@ -12,12 +12,13 @@ public class BattleMenu : Menu
     public override void Display()
     {
         Console.Clear();
-        Console.WriteLine($"{"YOU".Pastel(Color.FromArgb(94, 188, 255))}: {player.CurrentHealth} / {player.TotalHealth}");
+        Console.WriteLine("-----------------------------------------");
+        Console.WriteLine($"{player.Name.Pastel(Color.FromArgb(94, 188, 255))}: {player.CurrentHealth} / {player.TotalHealth}");
         Console.WriteLine($"{enemy.Name.Pastel(Color.FromArgb(255, 94, 94))}: {enemy.CurrentHealth} / {enemy.TotalHealth}");
         Console.WriteLine("-----------------------------------------");
-        Console.WriteLine("| 1. Attack                             |");
-        Console.WriteLine("| 2. Inventory                          |");
-        Console.WriteLine("| 3. Details                            |");
+        Console.WriteLine("1. Attack");
+        Console.WriteLine("2. Inventory");
+        Console.WriteLine("3. Details");
         Console.WriteLine("-----------------------------------------");
         Console.WriteLine($"{"Press the corresponding key to choose..".Pastel(Color.FromArgb(165, 229, 250))}");
         switch (GetKey())
@@ -127,15 +128,12 @@ public class BattleMenu : Menu
             case ConsoleKey.D3:
                 Console.Clear();
                 Console.WriteLine("-----------------------------------------");
-                Console.WriteLine($"{"YOU".Pastel(Color.FromArgb(94, 188, 255))} (Level {player.CurrentLevel})");
-                Console.WriteLine("-----------------------------------------");
+                Console.WriteLine($"{player.Name.Pastel(Color.FromArgb(94, 188, 255))} (Level {player.CurrentLevel})");
                 Console.WriteLine($"Health: {player.CurrentHealth} / {player.TotalHealth}");
                 Console.WriteLine($"Power: {player.Power}");
                 Console.WriteLine($"Defense: {player.Defense}");
                 Console.WriteLine("-----------------------------------------");
-                Console.WriteLine("-----------------------------------------");
                 Console.WriteLine($"{enemy.Name.Pastel(Color.FromArgb(255, 94, 94))}");
-                Console.WriteLine("-----------------------------------------");
                 Console.WriteLine($"Health: {enemy.CurrentHealth} / {enemy.TotalHealth}");
                 Console.WriteLine($"Power: {enemy.Power}");
                 Console.WriteLine($"Defense: {enemy.Defense}");

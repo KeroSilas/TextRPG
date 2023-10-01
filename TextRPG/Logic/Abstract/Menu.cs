@@ -1,16 +1,6 @@
 ﻿namespace TextRPG.Logic.Abstract;
 
-public abstract class Menu
+public abstract class Menu : InputHandler
 {
     public abstract void Display();
-
-    public ConsoleKey GetKey()
-    {
-        return Console.ReadKey().Key;
-    }
-    
-    public string? GetInput()
-    {
-        return Console.ReadLine();
-    }
 }

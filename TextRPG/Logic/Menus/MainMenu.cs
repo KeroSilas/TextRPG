@@ -18,8 +18,8 @@ public class MainMenu : Menu
         }
         Console.Clear();
         Console.WriteLine("-----------------------------------------");
-        Console.WriteLine("| 1. New Game                           |");
-        Console.WriteLine("| 2. Exit Game                          |");
+        Console.WriteLine("1. New Game");
+        Console.WriteLine("2. Exit Game");
         Console.WriteLine("-----------------------------------------");
         Console.WriteLine($"{"Press the corresponding key to choose..".Pastel(Color.FromArgb(165, 229, 250))}");
         switch (GetKey())

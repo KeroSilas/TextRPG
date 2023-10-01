@@ -8,6 +8,8 @@ public class Level1 : Level
 {
     public override void Start(ref PlayableCharacter player)
     {
+        Console.WriteLine(player.Name);
+        Thread.Sleep(1000);
         Character enemy = new Slime(player);
         InitiateBattle(ref player, ref enemy);
         
@@ -18,6 +20,9 @@ public class Level1 : Level
         InitiateBattle(ref player, ref enemy);
         
         enemy = new Dragon(player);
+        InitiateBattle(ref player, ref enemy);
+        
+        enemy = new ElderDragon(player);
         InitiateBattle(ref player, ref enemy);
     }
 }
