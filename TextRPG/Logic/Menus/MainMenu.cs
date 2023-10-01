@@ -1,17 +1,18 @@
 ﻿using System.Drawing;
 using Pastel;
+using TextRPG.Logic.Abstract;
 using TextRPG.Logic.Levels;
 using TextRPG.Model;
 using TextRPG.Model.Abstract;
 
-namespace TextRPG.Logic;
+namespace TextRPG.Logic.Menus;
 
 public class MainMenu : Menu
 {
     public override void Display()
     {
         Console.WriteLine($"Welcome to {"Twisted Lands".Pastel(Color.FromArgb(201, 94, 255))}");
-        Console.WriteLine("Press ENTER to continue..");
+        Console.WriteLine($"{"Press ENTER to continue..".Pastel(Color.FromArgb(165, 229, 250))}");
         while (GetKey() != ConsoleKey.Enter)
         {
         }

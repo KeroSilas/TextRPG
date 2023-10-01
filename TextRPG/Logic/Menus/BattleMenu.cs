@@ -1,9 +1,9 @@
 ﻿using System.Drawing;
 using Pastel;
 using TextRPG.Model.Abstract;
-using System.Linq;
+using TextRPG.Logic.Abstract;
 
-namespace TextRPG.Logic;
+namespace TextRPG.Logic.Menus;
 
 public class BattleMenu : Menu
 {
@@ -66,57 +66,57 @@ public class BattleMenu : Menu
                 switch (GetKey())
                 {
                     case ConsoleKey.D1: 
-                        player.UseItem(0);
                         Console.Clear();
                         Console.WriteLine($"You've used a {player.Inventory.ElementAt(0).Name}");
+                        player.UseItem(0);
                         Thread.Sleep(2000);
                         break;
                     case ConsoleKey.D2: 
-                        player.UseItem(1);
                         Console.Clear();
                         Console.WriteLine($"You've used a {player.Inventory.ElementAt(1).Name}");
+                        player.UseItem(1);
                         Thread.Sleep(2000);
                         break;
                     case ConsoleKey.D3: 
-                        player.UseItem(2);
                         Console.Clear();
                         Console.WriteLine($"You've used a {player.Inventory.ElementAt(2).Name}");
+                        player.UseItem(2);
                         Thread.Sleep(2000);
                         break;
                     case ConsoleKey.D4: 
-                        player.UseItem(3);
                         Console.Clear();
                         Console.WriteLine($"You've used a {player.Inventory.ElementAt(3).Name}");
+                        player.UseItem(3);
                         Thread.Sleep(2000);
                         break;
                     case ConsoleKey.D5: 
-                        player.UseItem(4);
                         Console.Clear();
                         Console.WriteLine($"You've used a {player.Inventory.ElementAt(4).Name}");
+                        player.UseItem(4);
                         Thread.Sleep(2000);
                         break;
                     case ConsoleKey.D6: 
-                        player.UseItem(5);
                         Console.Clear();
                         Console.WriteLine($"You've used a {player.Inventory.ElementAt(5).Name}");
+                        player.UseItem(5);
                         Thread.Sleep(2000);
                         break;
                     case ConsoleKey.D7: 
-                        player.UseItem(6);
                         Console.Clear();
                         Console.WriteLine($"You've used a {player.Inventory.ElementAt(6).Name}");
+                        player.UseItem(6);
                         Thread.Sleep(2000);
                         break;
                     case ConsoleKey.D8: 
-                        player.UseItem(7);
                         Console.Clear();
                         Console.WriteLine($"You've used a {player.Inventory.ElementAt(7).Name}");
+                        player.UseItem(7);
                         Thread.Sleep(2000);
                         break;
                     case ConsoleKey.D9: 
-                        player.UseItem(8);
                         Console.Clear();
                         Console.WriteLine($"You've used a {player.Inventory.ElementAt(8).Name}");
+                        player.UseItem(8);
                         Thread.Sleep(2000);
                         break;
                     case ConsoleKey.Enter:

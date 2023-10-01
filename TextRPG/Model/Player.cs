@@ -1,5 +1,4 @@
 ﻿using TextRPG.Model.Enums;
-using System.Linq;
 using TextRPG.Model.Abstract;
 using TextRPG.Model.Items;
 

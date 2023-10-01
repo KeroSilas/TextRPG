@@ -1,5 +1,4 @@
 ﻿using TextRPG.Logic.Abstract;
-using TextRPG.Model;
 using TextRPG.Model.Abstract;
 using TextRPG.Model.Enemies;
 

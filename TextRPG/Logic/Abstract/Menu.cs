@@ -1,4 +1,4 @@
-﻿namespace TextRPG.Logic;
+﻿namespace TextRPG.Logic.Abstract;
 
 public abstract class Menu
 {
