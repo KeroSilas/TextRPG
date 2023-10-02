@@ -51,7 +51,6 @@ public class BattleMenu : Menu
                     Console.Clear();
                     break;
                 }
-                UpdateStatus(ref player, ref enemy);
                 Display();
                 break;
             case ConsoleKey.D2:
@@ -159,7 +158,7 @@ public class BattleMenu : Menu
         }
     }
 
-    public void UpdateStatus(ref PlayableCharacter player, ref Character enemy)
+    public BattleMenu(ref PlayableCharacter player, ref Character enemy)
     {
         this.player = player;
         this.enemy = enemy;

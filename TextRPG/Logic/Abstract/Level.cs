@@ -15,8 +15,7 @@ public abstract class Level : InputHandler
         Console.Clear();
         Console.WriteLine($"You have encountered a {enemy.Name}!");
         Thread.Sleep(2500);
-        bm = new BattleMenu();
-        bm.UpdateStatus(ref player, ref enemy);
+        bm = new BattleMenu(ref player, ref enemy);
         bm.Display();
         if(player.IsAlive())
             CheckLevelUp(ref player, ref enemy);
