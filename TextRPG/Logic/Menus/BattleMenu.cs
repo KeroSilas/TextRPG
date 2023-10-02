@@ -122,6 +122,14 @@ public class BattleMenu : Menu
                         break;
                     case ConsoleKey.Enter:
                         break;
+                    default:
+                        Console.Clear();
+                        Console.WriteLine("Invalid input, try again..");
+                        Console.WriteLine($"{"Press ENTER to continue..".Pastel(Color.FromArgb(165, 229, 250))}");
+                        while (GetKey() != ConsoleKey.Enter)
+                        {
+                        }
+                        break;
                 }
                 Display();
                 break;
@@ -143,6 +151,9 @@ public class BattleMenu : Menu
                 {
                 }
                 Console.Clear();
+                Display();
+                break;
+            default:
                 Display();
                 break;
         }
